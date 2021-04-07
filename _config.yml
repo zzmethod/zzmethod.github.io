@@ -1,0 +1,23 @@
+include:
+  - contributing.md
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:name
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      author: ""
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      
+plugins:
+  - jekyll-optional-front-matter

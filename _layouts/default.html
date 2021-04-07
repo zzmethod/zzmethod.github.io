@@ -1,0 +1,40 @@
+{%- capture rawtitle -%}
+	{% if page.title == null or page.title == "" %}
+		{%- if page.name contains "readme" -%}{{ site.data.navigation[0].name }}
+		{% else %}{%- assign words = page.name | split: "." | first | replace: "_", " " | split: " " -%}
+		{% for word in words %}{{ word | capitalize }} {% endfor %}{%- endif -%}
+	{% else %}
+		{{ page.title }}
+	{% endif %}
+{%- endcapture -%}
+{%- assign title = rawtitle | strip -%}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>{{ title }}</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="icon" type="image/png" href="/assets/images/icon.png">
+        <meta name="author" content="{{ page.author }}">
+        <meta name="description" content="Website about the ZZ method">
+        <meta name="keywords" content="ZZ method">
+        <meta property="og:title" content="ZZ method">
+        <meta property="og:description" content="Website about the ZZ method">
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		<meta name="author" content="{{ page.author }}">
+	</head>
+	
+	<body>
+		<header>{{ title }}</header>
+		
+		{% include navigation.html %}
+	
+		<section>
+			{{ content }}
+		</section>
+		
+		<footer>
+			{% include footer.html %}
+		</footer>
+	</body>
+</html>

@@ -92,7 +92,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-optional-front-matter
   jekyll-paginate
-  jekyll-readme-index (~> 0.3.0)
+  jekyll-readme-index
   jekyll-remote-theme
   jekyll-seo-tag
   jekyll-sitemap

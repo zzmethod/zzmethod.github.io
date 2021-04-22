@@ -9,7 +9,7 @@ gem "jekyll"
 
 group :jekyll_plugins do
   gem 'jekyll-optional-front-matter'
-  gem 'jekyll-readme-index', '~> 0.3.0'
+  gem 'jekyll-readme-index'
   gem 'jekyll-remote-theme'
   gem 'jekyll-default-layout'
   gem 'jekyll-feed'

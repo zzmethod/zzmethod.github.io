@@ -9,21 +9,25 @@ algs:
   algs:
   - - x R' U R' D2 R U' R' D2 R2 x'
     - R' B' R2 D R' U' R D' R' U R' B R
+    - "(U) R F R2 D' R U R' D R U' R F' R' "
     - "(U) x' R2 D2 R' U' R D2 R' U R' x"
   - - x R2 D2 R U R' D2 R U' R x'
     - R' B' R U' R D R' U R D' R2' B R
+    - "(U) R F R' U R' D' R U' R' D R2 F' R' "
     - "(U) x' R U' R D2 R' U R D2 R2 x"
   - x' R U' R' D R U R' D' R U R' D R U' R' D' x
-  - - R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R
+  - - R' F R f' R' F R2 U R' U' R' F' R2 U R' S
+    - R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R
     - R2 F R F' R' U' F' U F R2 U R' U' R
   - R2 U R' U R' U' R U' R2 D U' R' U R D'
   - - R' U' R U D' R2 U R' U R U' R U' R2 D
     - R' d' F R2 u R' U R U' R u' R2
   - - R2 U' R U' R U R' U R2 UD' R U' R' D
     - "(U2) L2 U' L U' L U L' U L2 D' U L U' L' D"
-    - R D' R2 U' R2 U R' U R U2 R' U R' U R2 D R'
+    - R2 u' R U' R U R' u R2 f R' f'
   - R U R' U' D R2 U' R U' R' U R' U R2 D'
   - - M2 U M2 U2 M2 U M2
+    - R2 S2 R2 U' R2 S2 R2
     - M' U M2 U2 M2 U M2 U2 M'
   - - x R2 F R F' R U2 r' U r U2 x'
     - "(U') R' U L' U2 R U' R' U2 R L"
@@ -45,9 +49,9 @@ algs:
     - "(U') R2 U' S' U2 S U' R2"
   - - M2 U' M U2 M' U' M2
     - "(U') R2 U' S R2 S' R2 U R2"
-  - - R' U R U' R' f' U' R U2 R' U' R U' R' f R
+  - - "(U') R' U R' d' R' F' R2 U' R' U R' F R F"
     - R U' R U R' D R D' R U' D R2 U R2 D' R2
-    - "(U') R' U R' d' R' F' R2 U' R' U R' F R F"
+    - R' U R U' R' f' U' R U2 R' U' R U' R' f R
   - F R' F R2 U' R' U' R U R' F' R U R' U' F'
   - - M2 U2 M U M2 U M2 U M
     - M2 U M2 U M' U2 M2 U2 M'

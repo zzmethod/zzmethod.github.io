@@ -1,23 +1,27 @@
 include:
   - contributing.md
+permalink: pretty
 collections:
-  posts:
+  algsets:
+    permalink: /algs/:name
     output: true
-    permalink: /:collection/:name
 defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: "algsets"
     values:
-      layout: "default"
-      author: ""
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      
+      layout: "algset"
 plugins:
   - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-titles-from-headings
+title: ZZ method
+tagline: A website about the ZZ method.
+description: A website about the ZZ method.
+remote_theme: chrisrhymes/bulma-clean-theme

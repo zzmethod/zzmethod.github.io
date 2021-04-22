@@ -1,4 +1,6 @@
-- name: ZZ Method
-  link: /
+- name: Variants
+  link: /variants/
+- name: Algorithms
+  link: /algorithms/
 - name: Contributing
-  link: /contributing.html
+  link: /contributing/

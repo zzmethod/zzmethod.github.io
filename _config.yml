@@ -5,6 +5,7 @@ collections:
   algsets:
     permalink: /algs/:name
     output: true
+remote_theme: chrisrhymes/bulma-clean-theme
 defaults:
   -
     scope:
@@ -24,4 +25,3 @@ plugins:
 title: ZZ method
 tagline: A website about the ZZ method.
 description: A website about the ZZ method.
-remote_theme: chrisrhymes/bulma-clean-theme

@@ -1,7 +1,7 @@
 ---
 title: Best PLL algorithms 2H/OH
 description: The best PLL algorithms for two-handed and one-handed solving.
-imageLink: https://cube.rider.biz/visualcube.php?view=plan&fmt=svg&stage=pll&case=$ALG
+imageLink: http://cube.rider.biz/visualcube.php?view=plan&fmt=svg&stage=pll&case=$ALG
 algs:
 - title: 2H PLL
   description: Two-handed PLL algorithms
